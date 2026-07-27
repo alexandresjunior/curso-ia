@@ -1,12 +1,12 @@
-# Curso de Inteligência Artificial Aplicada
+# Curso de Inteligência Artificial
 
-Curso introdutório e prático de Inteligência Artificial e Machine Learning, pensado para **profissionais de diferentes áreas** (não apenas programadores/dados) que querem entender os conceitos e aplicá-los no seu dia a dia — em marketing, finanças, RH, saúde, operações, vendas, etc.
+Curso introdutório e prático de Inteligência Artificial e Machine Learning, pensado para **profissionais de diferentes áreas** (não apenas programadores e cientista de dados) que querem entender os conceitos e aplicá-los no seu dia a dia — em marketing, finanças, RH, saúde, operações, vendas, etc.
 
 Cada aula traz **teoria explicada em linguagem simples**, **exemplos práticos comentados em Python** e **exercícios com solução comentada**, usando cenários de negócio reais (previsão de vendas, churn de clientes, segmentação de público, detecção de fraude, diagnóstico, etc.).
 
 ## Pré-requisitos
 
-- Noções básicas de lógica e matemática (nível ensino médio).
+- Noções básicas de lógica de programação e matemática (nível ensino médio).
 - Conhecimento básico de Python é desejável, mas cada aula reforça o necessário.
 - Não é necessário conhecimento prévio de estatística avançada ou álgebra linear — os conceitos são construídos do zero.
 
@@ -23,11 +23,11 @@ pip install -r requirements.txt
 
 3. Cada pasta `aula-XX-...` contém:
    - `README.md` → teoria da aula
-   - `exemplos/` → scripts Python comentados, prontos para rodar (`python exemplo.py`) ou explorar célula a célula em um Jupyter/VS Code
+   - `exemplos/` → scripts Python comentados, prontos para serem executados (`python exemplo.py`) ou explorar célula a célula em um Jupyter/VS Code
    - `exercicios/` → um exercício proposto (`exercicio.py`) e uma solução comentada (`solucao.py`)
 4. Recomenda-se seguir a ordem das aulas, pois os conceitos são cumulativos.
 
-## Ementa (ordem didática)
+## Ementa
 
 | Aula | Tema | Conceitos-chave |
 |---|---|---|
@@ -63,4 +63,5 @@ curso-ia/
 
 ## Licença
 
-Este material é distribuído sob a licença MIT (veja [LICENSE](LICENSE)) — use, adapte e compartilhe livremente, inclusive para fins de ensino.
+Este material é distribuído sob a licença MIT (veja [LICENSE](LICENSE)) — use, adapte e compartilhe livremente, inclusive para fins de ensino, mediante a atribuição dos devidos créditos.
+
