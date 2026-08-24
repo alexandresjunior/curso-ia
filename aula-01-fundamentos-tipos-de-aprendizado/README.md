@@ -19,6 +19,10 @@
 
 Esse modelo aprendido pode depois ser usado para prever resultados em dados novos, nunca vistos antes.
 
+<div align="center">
+  <img width="640" height="320" alt="ia_versus_ml" src="https://github.com/user-attachments/assets/ee7c770a-21d8-4609-b618-5353a4726e74" />
+</div>
+
 ### Por que isso importa para qualquer profissional?
 
 Não é preciso ser cientista de dados para se beneficiar de ML. Alguns exemplos por área:
@@ -67,6 +71,10 @@ Principais tarefas:
 O algoritmo usa a pequena parte rotulada para "guiar" o aprendizado, e a grande massa de dados não rotulados para entender melhor a estrutura geral do problema, geralmente resultando em modelos melhores do que usar apenas os poucos dados rotulados isoladamente.
 
 - **Exemplo:** uma empresa tem milhares de e-mails de clientes, mas só 200 foram manualmente classificados como "reclamação", "elogio" ou "dúvida". Um modelo semi-supervisionado usa esses 200 rótulos + a estrutura dos milhares de e-mails não rotulados para classificar todo o restante com melhor qualidade do que usando só os 200 exemplos.
+
+<div align="center">
+  <img width="586" height="523" alt="tres_tipos_aprendizado" src="https://github.com/user-attachments/assets/bbd701a0-24f1-450a-a25a-7f9c3ee16f5d" />
+</div>
 
 ### Resumo comparativo
 
