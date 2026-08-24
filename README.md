@@ -39,6 +39,7 @@ pip install -r requirements.txt
 | [06](aula-06-avaliacao-de-modelos/README.md) | Avaliação de modelos | Validação cruzada, MSE, MAE, AUC e outras métricas |
 | [07](aula-07-aprendizado-nao-supervisionado/README.md) | Aprendizado não supervisionado | K-means, DBSCAN, PCA e redução de dimensionalidade |
 | [08](aula-08-introducao-deep-learning/README.md) | Introdução a Deep Learning | Redes neurais (MLP), CNNs e RNNs |
+| [Extra](aula-extra-analise-sensibilidade/README.md) | Análise de Sensibilidade | Feature Importance, Permutation Importance, Partial Dependence |
 
 ## Estrutura do repositório
 
@@ -59,7 +60,8 @@ curso-ia/
 ├── aula-05-knn-arvores-svm/
 ├── aula-06-avaliacao-de-modelos/
 ├── aula-07-aprendizado-nao-supervisionado/
-└── aula-08-introducao-deep-learning/
+├── aula-08-introducao-deep-learning/
+└── aula-extra-analise-sensibilidade/
 ```
 
 ## Licença
