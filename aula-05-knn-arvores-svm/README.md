@@ -20,6 +20,10 @@ O k-NN é, talvez, o algoritmo mais intuitivo de todos: **"você é parecido com
 3. Para classificação: usa a **classe majoritária** entre os k vizinhos.
 4. Para regressão: usa a **média** dos valores dos k vizinhos.
 
+<div align="center">
+   <img width="557" height="294" alt="knn" src="https://github.com/user-attachments/assets/2d0d7bab-bf25-4bac-9cc2-dea38ae42678" />
+</div>
+
 ### 1.2 Exemplo prático
 
 Para prever se um novo cliente vai cancelar, o k-NN olha para os `k` clientes mais parecidos (em termos de idade, renda, tempo de casa etc.) e verifica: a maioria deles cancelou ou não?
@@ -61,6 +65,11 @@ tempo_de_casa_meses < 12?
 
 Cada divisão (nó) é escolhida para **maximizar a separação entre as classes** (usando métricas como Gini ou entropia).
 
+<div align="center">
+   <img width="1182" height="790" alt="tree" src="https://github.com/user-attachments/assets/f763ca80-9a5b-4c4f-ab6f-cf7dedea1569" />
+</div>
+
+
 ### 2.2 Vantagens e limitações
 
 **Vantagens:**
@@ -87,6 +96,10 @@ Imagine duas nuvens de pontos (clientes que cancelaram vs. não cancelaram): o S
 ### 3.2 O "truque do kernel"
 
 Quando os dados não são linearmente separáveis (não dá para separar as classes com uma linha reta), o SVM pode usar **funções de kernel** (ex.: RBF, polinomial) para projetar os dados em um espaço de maior dimensão, onde a separação linear se torna possível.
+
+<div align="center">
+   <img width="505" height="246" alt="svm" src="https://github.com/user-attachments/assets/f66c9513-cc82-4899-8bb0-4de5683c3817" />
+</div>
 
 ### 3.3 Vantagens e limitações
 
