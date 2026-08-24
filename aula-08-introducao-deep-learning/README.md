@@ -40,7 +40,7 @@ Isso é, na verdade, muito parecido com a regressão logística que vimos na Aul
 - **Softmax**: usada na camada de saída para classificação com múltiplas classes, transformando as saídas em probabilidades que somam 1.
 
 <div align="center">
-  <img width="3433" height="1919" alt="func_ativacao" src="https://github.com/user-attachments/assets/b51aa334-63b6-4caa-a643-89ad6f438081" />
+  <img width="75%" alt="func_ativacao" src="https://github.com/user-attachments/assets/b51aa334-63b6-4caa-a643-89ad6f438081" />
 </div>
 
 ### 2.3 MLP: empilhando neurônios em camadas
@@ -71,6 +71,10 @@ Ao "empilhar" várias camadas ocultas, a rede consegue aprender funções cada v
 
 Não é necessário implementar isso manualmente: bibliotecas como TensorFlow/Keras e PyTorch cuidam de todos esses cálculos automaticamente — o que precisamos entender é a **intuição** por trás do processo.
 
+<div align="center">
+  <img width="880" height="524" alt="backpropagation" src="https://github.com/user-attachments/assets/132c00b9-7a2e-46c3-9ed3-46227f886e17" />
+</div>
+
 ---
 
 ## 3. Redes Neurais Convolucionais (CNNs)
@@ -79,9 +83,17 @@ Não é necessário implementar isso manualmente: bibliotecas como TensorFlow/Ke
 
 CNNs são especializadas em dados com **estrutura espacial**, principalmente **imagens** (mas também podem ser usadas em outros dados com padrões locais, como séries temporais ou até texto).
 
+<div align="center">
+  <img width="1274" height="568" alt="cnn" src="https://github.com/user-attachments/assets/3d0f0bc6-d0a7-4958-bff9-f0fe685ef31f" />
+</div>
+
 ### 3.2 Ideia central: convolução
 
 Em vez de conectar cada neurônio a **todos** os pixels da imagem (o que geraria um número gigantesco de parâmetros), a CNN usa **filtros (kernels)** pequenos que "deslizam" sobre a imagem, detectando padrões locais (bordas, texturas, formas) — e esses padrões vão se tornando mais complexos e abstratos à medida que passam por mais camadas (ex.: da detecção de bordas simples até o reconhecimento de "olho", "rosto", "gato").
+
+<div align="center">
+  <img width="682" height="462" alt="convolucao" src="https://github.com/user-attachments/assets/368bd9b7-54a1-4928-817c-c18c30818d46" />
+</div>
 
 Componentes típicos:
 - **Camadas convolucionais:** aplicam os filtros e extraem características.
