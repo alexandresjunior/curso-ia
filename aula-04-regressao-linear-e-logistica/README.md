@@ -78,7 +78,10 @@ A regressão logística pode ser estendida para problemas com mais de duas class
 
 ---
 
-## 3. Regressão Linear vs. Logística — resumo
+## 3. Regressão Linear vs. Logística
+
+<img width="1203" height="454" alt="reg_linear_vs_reg_log" src="https://github.com/user-attachments/assets/5b1e5856-86cb-4810-a114-f343456dc3cc" />
+
 
 | | Regressão Linear | Regressão Logística |
 |---|---|---|
