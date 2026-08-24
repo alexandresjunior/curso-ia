@@ -48,6 +48,7 @@ curso-ia/
 ├── requirements.txt
 ├── LICENSE
 ├── dados/                              <- datasets sintéticos usados nas aulas
+├── projeto-final
 ├── aula-01-fundamentos-tipos-de-aprendizado/
 │   ├── README.md
 │   ├── exemplos/
