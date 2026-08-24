@@ -126,6 +126,10 @@ entrada(t=2) → [RNN] → estado(2) → previsão(2)
 entrada(t=3) → [RNN] → estado(3) → previsão(3)
 ```
 
+<div align="center">
+  <img width="1490" height="418" alt="rnn" src="https://github.com/user-attachments/assets/e751e102-9723-4413-9c01-774e7430434f" />
+</div>
+
 ### 4.3 Variantes mais robustas
 
 RNNs simples têm dificuldade em "lembrar" de informações muito distantes no passado (problema do gradiente desvanecente). Por isso, criaram-se variantes mais sofisticadas:
@@ -133,6 +137,10 @@ RNNs simples têm dificuldade em "lembrar" de informações muito distantes no p
 - **GRU (Gated Recurrent Unit)**
 
 Essas variantes têm mecanismos especiais ("portões") para decidir o que lembrar e o que esquecer ao longo da sequência — fica como sugestão de aprofundamento após este curso.
+
+<div align="center">
+  <img width="75%" alt="rnn_lstm_gru" src="https://github.com/user-attachments/assets/bec2fb8a-b7a5-4695-a05d-32c056075424" />
+</div>
 
 ### 4.4 Aplicações práticas
 
@@ -158,5 +166,7 @@ Essas variantes têm mecanismos especiais ("portões") para decidir o que lembra
 - Quando a **interpretabilidade não é o requisito mais crítico** (redes neurais tendem a ser menos interpretáveis que árvores de decisão ou regressão).
 
 Para dados tabulares "do dia a dia" (planilhas de vendas, RH, financeiro), frequentemente os modelos das Aulas 04 e 05 (ou ensembles como Random Forest/Gradient Boosting) já entregam ótimo desempenho com muito menos complexidade e mais interpretabilidade — vale sempre considerar essa relação custo-benefício antes de partir direto para Deep Learning.
+
+Caso queira se aprofundar mais no assunto, acesse a apostila `Deep Learning aplicado com Keras` em anexo neste repositório.
 
 **Este era o conteúdo final da ementa do curso.** Veja o [README principal](../README.md) para sugestões de próximos passos.
