@@ -69,6 +69,10 @@ Dois parâmetros principais:
 - Sensível à escolha de `eps` e `min_samples` (exige alguma experimentação).
 - Tem dificuldade quando os clusters têm densidades muito diferentes entre si.
 
+<div align="center">
+  <img width="960" height="480" alt="db_scan_vs_k_means" src="https://github.com/user-attachments/assets/d269b51c-3e95-455c-a600-5d183baf3651" />
+</div>
+
 ### 3.3 K-means vs. DBSCAN
 
 | | K-means | DBSCAN |
@@ -94,6 +98,10 @@ O PCA busca **novas variáveis (componentes principais)**, que são **combinaç�
 - E assim por diante.
 
 Com isso, é possível **reduzir dezenas de variáveis para 2 ou 3 componentes principais**, mantendo a maior parte da informação (variância) original — o que permite, por exemplo, **visualizar** dados complexos em um gráfico 2D.
+
+<div align="center">
+  <img width="958" height="308" alt="pca" src="https://github.com/user-attachments/assets/24105fdc-7b2c-44c2-a30f-0d90e363b5d8" />
+</div>
 
 ### 4.3 Quanto de variância é preservada?
 
