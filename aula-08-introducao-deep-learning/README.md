@@ -29,11 +29,19 @@ saída = função_de_ativação(z)
 
 Isso é, na verdade, muito parecido com a regressão logística que vimos na Aula 04 (que é, essencialmente, "um único neurônio" com ativação sigmoide)!
 
+<div align="center">
+  <img width="802" height="202" alt="perceptron" src="https://github.com/user-attachments/assets/ee033ef3-4ec3-4cf8-8365-e199a4f1ab4f" />
+</div>
+
 ### 2.2 Funções de ativação comuns
 
 - **Sigmoide**: comprime a saída entre 0 e 1 (útil na camada de saída de classificação binária).
 - **ReLU (Rectified Linear Unit)**: `max(0, z)` — a mais usada em camadas internas hoje em dia, por ser simples e evitar alguns problemas de treinamento.
 - **Softmax**: usada na camada de saída para classificação com múltiplas classes, transformando as saídas em probabilidades que somam 1.
+
+<div align="center">
+  <img width="3433" height="1919" alt="func_ativacao" src="https://github.com/user-attachments/assets/b51aa334-63b6-4caa-a643-89ad6f438081" />
+</div>
 
 ### 2.3 MLP: empilhando neurônios em camadas
 
@@ -48,6 +56,10 @@ Camada de entrada → Camada(s) oculta(s) → Camada de saída
 - **Camada de saída:** produz a previsão final (ex.: probabilidade de churn, valor previsto).
 
 Ao "empilhar" várias camadas ocultas, a rede consegue aprender funções cada vez mais complexas — daí o nome "profundo" (deep).
+
+<div align="center">
+  <img width="602" height="332" alt="mlp" src="https://github.com/user-attachments/assets/c4f2aa88-f778-43bf-bd92-7179fa35cde4" />
+</div>
 
 ### 2.4 Como a rede aprende? (intuição sobre backpropagation)
 
