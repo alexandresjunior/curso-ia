@@ -1,10 +1,4 @@
-# 🌍 Projeto Final: Modelagem Preditiva de Indicadores Socioeconômicos Globais
-
-**Instituição:** Treina Recife - Formação de Desenvolvedores e Cientistas de Dados  
-**Módulo:** Fundamentos de Machine Learning (Aulas 01 a 06)  
-**Formato de Entrega:** Notebook Google Colab e Repositório GitHub  
-
----
+# Projeto #01: Modelagem Preditiva de Indicadores Socioeconômicos Globais
 
 ## 📋 Descrição do Projeto
 
@@ -59,13 +53,4 @@ Ferramentas sugeridas: **Power BI, Metabase ou Google Looker Studio**.
 
 ---
 
-## 📅 Critérios de Avaliação
-
-| Critério | Peso | Descrição |
-|---|---|---|
-| **Consumo e Limpeza (Pandas)** | 20% | Extração correta da API, tratamento de inconsistências e dados faltantes. |
-| **Pré-processamento (Sklearn)** | 20% | Correto escalonamento Numérico e Encoding Categórico. |
-| **Modelagem Supervisionada** | 30% | Correto treinamento de pelo menos 1 modelo de Regressão e 1 de Classificação. |
-| **Validação e Métricas** | 20% | Aplicação de Validação Cruzada, MSE/MAE (Regressão) e AUC/Acurácia (Classificação). |
-| **Visualização (Matplotlib)** | 10% | Gráficos claros, com títulos e rótulos bem definidos ilustrando os resultados preditivos. |
-
+Instagram • Telegram • Youtube - @profalexandrejr
