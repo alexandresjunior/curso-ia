@@ -125,6 +125,10 @@ F1 = 2 × (Precisão × Recall) / (Precisão + Recall)
 
 A **curva ROC** mostra a relação entre a Taxa de Verdadeiros Positivos (recall) e a Taxa de Falsos Positivos, à medida que variamos o **limiar de decisão** (threshold) do modelo (lembra do 0.5 padrão que mencionamos na Aula 04? Podemos variar esse valor).
 
+<div align="center">
+  <img width="50%" alt="auc_roc" src="https://github.com/user-attachments/assets/c088d4a5-616f-43f9-bbb5-8cea6eb2e025" />
+</div>
+
 A **AUC** (área sob essa curva) resume, em um único número entre 0 e 1, a capacidade do modelo de **separar as classes**, independentemente do limiar escolhido:
 
 - AUC = 0.5 → o modelo é equivalente a "chutar" aleatoriamente.
